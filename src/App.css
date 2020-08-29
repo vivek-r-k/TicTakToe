@@ -1,0 +1,28 @@
+body {
+  background-image: url("./pexel1.jpg");
+  background-repeat: no-repeat;
+  background-size: 13in;
+  background-position-x: center;
+  background-color: #F0DF87;
+} 
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./pexel2.jpg");
+  background-position-x: center;
+}
+
+.icon {
+  font-size: 35px;
+  color: #ffffff;
+}
